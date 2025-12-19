@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Survey Form</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+<div class="navbar">
+<div class="logo">SurveyForm</div>
+<ul>
+<li><a href="#about">About</a></li>
+<li><a href="#form">Form</a></li>
+<li><a href="#feedback">Feedback</a></li>
+</ul>
+</div>
+</header>
+<section class="hero">
+<h1>Welcome to Our Survey</h1>
+<p>Share your opinions and help us improve!</p>
+<a href="#form" class="btn">Start Survey</a>
+</section>
+<section id="about">
+<h2>About This Survey</h2>
+<p>We value your feedback. This short survey will help us understand your needs and improve our services.</p>
+</section>
+<section id="form">
+<h2>Survey Form</h2>
+<form>
+<input type="text" placeholder="Your Name" required>
+<input type="email" placeholder="Your Email" required>
+<select>
+<option value="">Select Your Age Group</option>
+<option value="under18">Under 18</option>
+<option value="18-25">18-25</option>
+<option value="26-35">26-35</option>
+<option value="36-50">36-50</option>
+<option value="50+">50+</option>
+</select>
+<label>How satisfied are you with our service?</label>
+<div class="radio-group">
+<label><input type="radio" name="satisfaction" value="very"> Very Satisfied</label>
+<label><input type="radio" name="satisfaction" value="satisfied"> Satisfied</label>
+<label><input type="radio" name="satisfaction" value="neutral"> Neutral</label>
+<label><input type="radio" name="satisfaction" value="unsatisfied"> Unsatisfied</label>
+</div>
+<textarea placeholder="Additional Comments"></textarea>
+<button type="submit">Submit</button>
+</form>
+</section>
+<section id="feedback">
+<h2>Why Your Feedback Matters</h2>
+<p>Your feedback helps us grow and provide better services tailored to your needs.</p>
+</section>
+
+</body>
+</html>
